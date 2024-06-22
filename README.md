@@ -14,4 +14,4 @@ This repository contains Docker configurations (`Dockerfile`) and configuration 
 ![Alert on Email](images/alertmgr-email.jpg)
 ![Alertmanager UI](images/alertmgr-ui.jpg)
 ![Prometheus UI](images/prometheus-ui.jpg)
-![Alert on Prometheus](prome-instance-down.jpg)
+![Alert on Prometheus](images/prome-instance-down.jpg)
