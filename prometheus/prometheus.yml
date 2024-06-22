@@ -1,0 +1,16 @@
+# prometheus/prometheus.yml
+global:
+  scrape_interval: 15s
+
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets: ['localhost:9093'] # add alertmanager:9093 if dns resolved else put localhost:9093 after running containers on 'host' network
+
+rule_files:
+  - /etc/prometheus/alert_rules.yml
+
+scrape_configs:
+  - job_name: 'nginx'
+    static_configs:
+      - targets: ['nginx:80']
