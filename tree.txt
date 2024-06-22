@@ -1,0 +1,13 @@
+Project_DIR
+├── alertmanager
+│   ├── alertmanager.yml
+│   └── Dockerfile
+├── nginx
+│   ├── Dockerfile
+│   └── index.html
+└── prometheus
+    ├── alert_rules.yml
+    ├── Dockerfile
+    └── prometheus.yml
+
+3 directories, 7 files
