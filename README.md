@@ -10,4 +10,8 @@ This repository contains Docker configurations (`Dockerfile`) and configuration 
 - **Alertmanager**: Handles alerts sent by Prometheus.
 - **Nginx**: Serves as a target for monitoring.
 
-
+![Alert on Alertmanager UI](images/alert-mgr-down.jpg)
+![Alert on Email](images/alertmgr-email.jpg)
+![Alertmanager UI](images/alertmgr-ui.jpg)
+![Prometheus UI](images/prometheus-ui.jpg)
+![Alert on Prometheus](prome-instance-down.jpg)
